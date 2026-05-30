@@ -1,2 +1,2 @@
-# calculadora-interactiva
-suma de dos números
+# multiplicador interactivo
+realiza la multiplicacion de dos numeros
