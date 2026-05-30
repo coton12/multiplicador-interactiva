@@ -1,4 +1,3 @@
-﻿
 * {
     box-sizing: border-box;
     margin: 0;
@@ -6,19 +5,11 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-body 
-
-{
-    /* 1. Ruta de tu imagen (puede ser un archivo local o un link de internet) */
+body {
     background-image: url('infinito.jpg');
-    /* 2. Evita que la imagen se duplique como mosaico si es pequeña */
     background-repeat: no-repeat;
-    /* 3. Ajusta la imagen para que cubra TODA la pantalla sin deformarse */
     background-size: cover;
-    /* 4. Centra la imagen para que no se corte por los lados */
     background-position: center;
-    /* 5. Hace que el fondo se quede fijo al hacer scroll (opcional pero recomendado) */
-    background-attachment: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,31 +28,31 @@ body
 }
 
 
-
-/* --- BOTÓN DE CAMBIO CON EL SIGNO * --- */
+/* --- BOTÓN DE CAMBIO  --- */
 .btn-change {
     position: absolute;
     top: 10px;
     right: 10px;
-    background: black;
+    background: #6c757d;
     color: white;
-    width:40px;
+    border: none;
+    width: 40px;
     height: 40px;
-    border-radius:50%;
+    border-radius: 50%;
     font-size: 1.5rem;
     cursor: pointer;
     display: flex;
     justify-content: center;
-    align-items: flex-end;
+    align-items:flex-start;
     text-decoration: none;
     transition: background 0.3s, transform 0.2s;
 }
+
     .btn-change:hover {
         background: #495057;
         transform: scale(1.1);
-    
     }
- 
+
 /* --- FORMULARIOS Y ELEMENTOS --- */
 h2 {
     margin-bottom: 1.5rem;
@@ -99,19 +90,20 @@ input {
 }
 
 /* Colores temáticos para cada operación */
-.sum-theme {
-    background: #198754;
+
+
+.mult-theme {
+    background: blue;
 }
 
-    .sum-theme:hover {
-        background: #157347;
+    .mult-theme:hover {
+        background: #0b5ed7;
     }
-
-
 
 .result {
     margin-top: 1.5rem;
     font-size: 1.25rem;
     font-weight: bold;
     color: #212529;
-}
+}﻿
+
