@@ -1,8 +1,8 @@
 
 
-    // Lógica para resolver la suma
+    // LÃ³gica para resolver la suma
     function calcularSuma() {
-            // El parseFloat es clave, si no JavaScript junta los números como texto (ej: 2 + 2 = 22)
+            // El parseFloat es clave, si no JavaScript junta los nÃºmeros como texto (ej: 2 + 2 = 22)
             const n1 = parseFloat(document.getElementById('sumNum1').value);
     const n2 = parseFloat(document.getElementById('sumNum2').value);
     const rContainer = document.getElementById('resSuma');
@@ -12,5 +12,5 @@
     return;
             }
 
-    rContainer.textContent = `Resultado: ${n1 + n2}`;
+    rContainer.textContent = `Resultado: ${n1 * n2}`;
 }
